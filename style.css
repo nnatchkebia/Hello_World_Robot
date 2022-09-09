@@ -1,15 +1,13 @@
 body{
     background: fixed radial-gradient(#514848, #322f2e);
-}
-
-.robot{
-    position: absolute;
-    margin: 100px 550px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 }
 
 h1{
-    width: 820px;
-    padding: 470px 500px 0 500px;
     color: #a1c8e4;
     font-family: 'Press Start 2P'; 
     font-size: 28px;
@@ -18,12 +16,10 @@ h1{
 /* Hello Worrld Collors */
 .symbols{
     color:#EAE2E2
-
 }
 
 .hello{
     color: #A1C8E4;
-
 }
 
 .world{
